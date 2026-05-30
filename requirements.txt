@@ -1,0 +1,29 @@
+# Core ML/NLP
+transformers==4.55.0
+datasets==4.0.0
+peft==0.16.0
+accelerate==1.9.0
+trl==0.21.0
+
+# Tokenization & Serialization
+sentencepiece==0.2.0
+protobuf==6.31.1
+tiktoken
+
+# Anthropic API
+anthropic
+
+# AMR
+penman
+
+# Data & Evaluation
+pandas
+scikit-learn
+seqeval
+sacrebleu
+rouge_score
+numpy
+
+# Logging & Monitoring
+wandb
+tensorboard

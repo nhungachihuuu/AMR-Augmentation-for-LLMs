@@ -1,0 +1,16 @@
+.vscode/
+run.sh
+run.sub
+run2.sh
+run2.sub
+run3.sh
+run3.sub
+__pycache__/
+**/__pycache__/
+*.py[cod]
+dataset/**/*.csv
+dataset/**/*.json
+dataset/**/*.jsonl
+dataset/**/*.tsv
+dataset/**/*.txt
+wandb
