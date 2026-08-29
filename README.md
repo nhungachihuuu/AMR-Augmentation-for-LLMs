@@ -2,7 +2,7 @@
 
 This repository contains the code and data for our EMNLP 2026 submission: **"On the (In)effectiveness of AMR Augmentation for Large Language Models"**.
 
-We investigate whether augmenting LLM inputs with Abstract Meaning Representation (AMR) improves downstream performance. Through experiments across two model families (Llama-3.1-8B-Instruct and Qwen3-8B), thirteen tasks spanning single- and multi-sentence settings, and multiple fine-tuning strategies, we find no consistent improvement over text-only baselines. A perplexity-based relational knowledge analysis further shows that modern LLMs already implicitly encode the semantic relations that AMR makes explicit — meaning AMR augmentation offers no additional information to the model.
+We investigate whether augmenting LLM inputs with Abstract Meaning Representation (AMR) improves downstream performance. Through experiments across two model families (Llama-3.1-8B-Instruct and Qwen3-8B), thirteen tasks spanning single- and multi-sentence settings, and multiple fine-tuning strategies, we find no consistent improvement over text-only baselines. A perplexity-based relational knowledge analysis further provides evidence suggesting that AMR augmentation does not provides relational knowledge beyond what LLM can infer from text alone. 
 
 ---
 
